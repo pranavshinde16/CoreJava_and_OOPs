@@ -1,4 +1,4 @@
-package com.company;
+//package com.company;
 
 public class _2D_Arrays {
     public static void main(String[] args) {
