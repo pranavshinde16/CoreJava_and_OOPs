@@ -4,16 +4,16 @@ public class Fibonacci_Series {
 
     static int a=0,b=1,c;
     static void fibonacci(int i){
-        if(i>1){
+        if(i>2){
             c = a+b;
-            System.out.print(" "+c);
             a = b;
             b = c;
+            System.out.print(" "+c);
             fibonacci(i-1);
         }
     }
     public static void main(String[] args) {
-        fibonacci(5);
-
+        System.out.print(a+" "+b);
+        fibonacci(9);
     }
 }

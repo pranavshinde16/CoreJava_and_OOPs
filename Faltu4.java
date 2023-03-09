@@ -1,4 +1,4 @@
-package com.company;
+//package com.company;
 
 public class Faltu4 {
     static int ProductSmallestPair(int[] arr,int sum){
